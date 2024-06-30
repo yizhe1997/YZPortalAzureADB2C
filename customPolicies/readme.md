@@ -806,3 +806,12 @@ This step does not need configuring any further, but find out more [here](https:
 ## Summary
 
 By reducing the user experience to a set of logical steps, we have translated these to a set of Orchestration Steps within an Azure AD B2C policy. These orchestration steps then implement the functionality of each logical step by allowing the user to interact with pages and validate various information. Finally we issue an id token back to the application.
+
+## Other references
+- [B2C account auto link](https://github.com/azure-ad-b2c/samples/tree/master/policies/auto-account-linking)
+- [Azure Active Directory B2C logs with Application Insights](https://learn.microsoft.com/en-us/azure/active-directory-b2c/troubleshoot-with-application-insights?pivots=b2c-custom-policy)
+- [Custom policy samples](https://github.com/azure-ad-b2c/samples) 
+- [Custom policy add email claim](https://stackoverflow.com/questions/46778129/azure-ad-b2c-emails-claim-in-custom-policy?rq=3)
+- [Unable to see email address in clims after siginin](https://learn.microsoft.com/en-us/answers/questions/738212/b2c-custom-policy-unable-to-see-email-address-in-c)
+- [Password reset flow](https://learn.microsoft.com/en-us/azure/active-directory-b2c/add-password-reset-policy?pivots=b2c-custom-policy#self-service-password-reset-recommended)
+- [Customize html](https://learn.microsoft.com/en-us/azure/active-directory-b2c/customize-ui-with-html?pivots=b2c-custom-policy)
